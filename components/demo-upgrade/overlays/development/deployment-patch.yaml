@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: demo-upgrade
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/otikhomi-tenant/demo-upgrade/demo-upgrade@sha256:09913bf1800719f6800e71853ed7d1dad40438996543c5792faf570a3facf09a
+        name: my-java-springboot
+        resources: {}
+status: {}
