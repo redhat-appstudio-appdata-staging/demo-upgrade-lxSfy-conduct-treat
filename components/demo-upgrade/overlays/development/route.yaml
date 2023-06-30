@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: demo-upgrade
     app.kubernetes.io/part-of: demo-upgrade
-  name: demo-upgradetmsb
+  name: demo-upgrade4n41
 spec:
   path: /
   port:
