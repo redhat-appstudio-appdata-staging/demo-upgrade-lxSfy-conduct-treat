@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: demo-upgrade
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/otikhomi-tenant/demo-upgrade/demo-upgrade@sha256:2d02c841d24975d13361f864d153bd4957609ec3cca1ea39656a0ce2b1ea9a41
+      - image: quay.io/redhat-user-workloads-stage/otikhomi-tenant/demo-upgrade/demo-upgrade@sha256:c7ee1d4649191820d078bde42506c1d089988eadda529b250930d7541c944d41
         name: my-java-springboot
         resources: {}
 status: {}
