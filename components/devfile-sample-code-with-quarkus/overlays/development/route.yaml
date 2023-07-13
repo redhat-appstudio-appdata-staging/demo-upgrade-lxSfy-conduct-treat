@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-code-with-quarkus
     app.kubernetes.io/part-of: demo-upgrade
-  name: devfile-sample-code-with-mmku
+  name: devfile-sample-code-with-ci8r
 spec:
   path: /
   port:
