@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/otikhomi-tenant/demo-upgrade/demo-upgrade@sha256:4209b611e1b570809f347c624fc863c55ab6023fa0d76ee7062ba0cfcbf08804
+      - image: quay.io/redhat-user-workloads-stage/otikhomi-tenant/demo-upgrade/demo-upgrade@sha256:ac376b3ca2551454fafff42f6e3ebc1e357f15d6c7169a76da7af613d6abbb4f
         name: my-java-springboot
         resources: {}
 status: {}
