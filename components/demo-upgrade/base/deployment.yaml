@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: demo-upgrade
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/otikhomi-tenant/demo-upgrade/demo-upgrade@sha256:4209b611e1b570809f347c624fc863c55ab6023fa0d76ee7062ba0cfcbf08804
+      - image: quay.io/redhat-user-workloads-stage/otikhomi-tenant/demo-upgrade/demo-upgrade@sha256:09913bf1800719f6800e71853ed7d1dad40438996543c5792faf570a3facf09a
         name: my-java-springboot
         ports:
         - containerPort: 8081
